@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        .mysty{
+            width: 800px;
+            background-color: bisque;
+        }
+        .myimg{
+            width: 200px;
+        }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <ol>
+        <li>A</li>
+        <li>B</li>
+    </ol>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+    </ul>
+    <ol class="list-unstyled list-inline ">
+        <li class="list-inline-item ">A</li>
+        <li class="list-inline-item ">B</li>
+    </ol>
+    <ul class="list-unstyled ">
+        <li>1</li>
+        <li>2</li>
+    </ul>
+
+    <dl class="row"> <!-- col加總==12 -->
+        <dt class="col-2">title</dt>
+        <dd class="col-10">content</dd>
+
+        <dt class="col-2">title</dt>
+        <dd class="col-10">content</dd>
+    </dl>
+
+    <div class="mysty img-fluid clearfix ">
+        <img class="img-fluid img-thumbnail rounded " src="img/luca-florio-ZeKTZS2l9ck-unsplash-900x470.jpg" alt="">
+        <img class="myimg img-thumbnail rounded float-start " src="img/luca-florio-ZeKTZS2l9ck-unsplash-900x470.jpg" alt="">
+        <img class="myimg img-thumbnail rounded float-end " src="img/luca-florio-ZeKTZS2l9ck-unsplash-900x470.jpg" alt="">
+    </div>
+    <div class="mysty ">
+        <img class="myimg img-thumbnail rounded mx-auto d-block " src="img/cat1.PNG" alt="">
+    </div>
+
+    <figure class="figure ">
+        <img src="img/cat1.PNG" alt="">
+        <figcaption class="figure-caption text-center ">圖片ㄟ標題</figcaption>
+    </figure>
+
+</body>
+
+</html>
